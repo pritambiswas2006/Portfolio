@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; }
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 2px 2px #42445A;
+}
+a {
+  text-decoration: none;
+}
+.logo h2{
+  font-size: 20px;
+  font-weight: 900;
+  color: crimson;
+}
+
+.links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.links li {
+  display: inline;
+  margin-left: 5px;
+}
+
+.links li:first-child {
+  margin-left: 0;
+}
+
+.links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.links li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card {
+  color: whitesmoke;
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h2 {
+  margin-top: 0;
+  color: crimson;
+}
+
+.card-content p {
+  margin-bottom: 8px;
+  font-size: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.color {
+  color: crimson;
+}
+hr {
+  color: #42445A;
+  background-color: #42445A;
+  width: 95%;
+  margin: 2%;
+}
+#via {
+  color: crimson;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+.iconLinks {
+  display: flex;
+  align-items: center;
+}
+
+.iconText {
+  color: #A9CDD3;
+}
+
+.imageIcon a img{
+  height: 25px;
+}
+.icons {
+  margin-left: 2rem;
+}
+@media and screen (max-width: 500px) {
+  .card{
+    width: 300px;
+  }
+}
